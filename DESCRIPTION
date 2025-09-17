@@ -1,0 +1,61 @@
+Package: forestgrowthmatrixP2
+Type: Package
+Title: Forest Biomass Forecasting with the Matrix Model
+Version: 0.1.1
+Authors@R: c(
+    person(
+      "Francisco", "Rivas",
+      email = "frivasfu@purdue.edu",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Jingjing", "Liang",
+      email = "jjliang@purdue.edu",
+      role = c("aut")
+    ),
+    person(
+      "Desmond", "Mensah",
+      email = "dmensah@purdue.edu",
+      role = c("aut")
+    ),
+    person(
+    "Varsha", "Raj Basavaraja",
+     email = "vbasavar@purdue.edu",
+     role = c("aut")
+    )
+  )
+Description: Functions to compute matrix model forecasts for Indiana forests in the US.
+License: CC BY-NC 4.0 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    dplyr,
+    foreach,
+    doParallel,
+    parallel,
+    plotly,
+    readr,
+    htmlwidgets,
+    glue,
+    magrittr,
+    tidyr,
+    shiny,
+    shinyjs,
+    DT,
+    stats,
+    ranger,
+    shinythemes,
+    shinydashboard,
+    shinyWidgets,
+    patchwork
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat,
+    magick
+VignetteBuilder: knitr
+URL: https://github.com/facaimatrix/forestgrowthmatrixP2, https://facaimatrix.github.io/forestgrowthmatrixP2/
+BugReports: https://github.com/facaimatrix/forestgrowthmatrixP2/issues 
