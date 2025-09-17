@@ -46,7 +46,7 @@ For demonstration purposes, we'll create some sample data that mimics the struct
 
 ```{r}
 library(stats)
-# Sample data for demonstration (fix)
+# Sample data for demonstration
 data_indiana <- data.frame(
   PlotID = rep(paste0("Plot_", 1:50), each = 10),
   Species = sample(c("Oak", "Maple", "Pine", "Birch"), 500, replace = TRUE),
