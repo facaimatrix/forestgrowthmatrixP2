@@ -9,11 +9,6 @@ Authors@R: c(
       role = c("aut", "cre")
     ),
     person(
-      "Jingjing", "Liang",
-      email = "jjliang@purdue.edu",
-      role = c("aut")
-    ),
-    person(
       "Desmond", "Mensah",
       email = "dmensah@purdue.edu",
       role = c("aut")
@@ -22,6 +17,11 @@ Authors@R: c(
     "Varsha", "Raj Basavaraja",
      email = "vbasavar@purdue.edu",
      role = c("aut")
+    ),
+      person(
+      "Jingjing", "Liang",
+      email = "jjliang@purdue.edu",
+      role = c("aut")
     )
   )
 Description: Functions to compute matrix model forecasts for Indiana forests in the US.
